@@ -1,0 +1,46 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="ninja-cat.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    // $(document).ready(function(){
+    //     $("#img").click(function(){
+    //         $("this").attr('data-alt-src');
+
+    //     })
+    // })
+    $(document).ready(function(){
+
+        $('img').click(function(){
+            var temp= $(this).attr('src');
+            var temp2= $(this).attr('data-alt-src');
+            // the comma you can understand as a equal sign.
+
+            $(this).attr('src',temp2 ); 
+
+            $(this).attr('data-alt-src', temp);
+        })
+
+    })
+
+
+     </script>
+</head>
+<body>
+    <div id="division">
+        <img id="one" src="ninja0.png" data-alt-src='cat0.png' />
+        <img id="two" src="ninja1.png" data-alt-src='cat1.png' /> 
+        <img id="three" src="ninja2.png" data-alt-src='cat2.png' />
+        <img id="four"src="ninja3.png" data-alt-src='cat3.png' />
+        <img id="five"src="ninja4.png" data-alt-src='cat4.png' />
+       
+    </div>
+    
+    
+</body>
+</html>

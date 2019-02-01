@@ -1,0 +1,32 @@
+.container{
+    width: 990px;
+    min-height: 800px;
+    margin: 0px auto;
+    background-color: rgb(26, 26, 41);
+}
+div{
+    display: inline-block;
+}
+section{
+    margin-left: 100px;
+    padding:0px;
+    border: 10px #4CAF50 solid;
+    margin-right: 515px;
+}
+img{
+    width: 300px;
+    margin: auto;
+    border: 5px blue solid;
+}
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

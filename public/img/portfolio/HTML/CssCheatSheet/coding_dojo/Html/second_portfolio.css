@@ -1,0 +1,167 @@
+/* *{
+    outline: 1px red dotted;
+    margin:none;
+} */
+.container{
+    width: 1200px;
+    min-height: 1000px;
+    background-color: rgba(141, 31, 31, 0.986);
+    margin: auto;
+
+}
+header{
+    min-width: 200px;
+    height: 100px;
+    background-color: darkgrey;
+    
+}
+h1{
+    padding-top: 55px;
+    padding-left: 20px;
+}
+.body{
+    width: 1098px;
+    height: 400px;
+    margin-top: 15px;
+    
+    margin-left: 55px;
+    margin-right: 55px;
+    display:inline-block;
+    vertical-align:center;
+
+
+}
+#main{
+    width: 470px;
+    height: 290px;
+    border:3px grey solid;
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 70px;
+    
+    
+}
+#about{
+    /* text-align: left;
+    font-family: sans-serif;
+    font-size: 16;
+    border: 10px black solid;
+    padding:10px; 
+    width: 400px;
+    height: 260px;
+    margin-top: 15px;
+    margin-bottom: 15;
+    padding-top: 15px;
+    background-color: white;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 30px; */
+    width:400px;
+    height: 300px;
+    border: 0.5px floralwhite solid;
+    display: inline-block;
+    background-color: azure;
+    vertical-align: top;
+    margin-left: 70px;
+    font-family: sans-serif;
+    font-size: 16;
+    display: inline-block;
+    border: 3px grey solid;
+    
+} 
+#boxes{
+    width: 1098px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 55px;
+    margin-right: 55px;
+    padding-top: 15px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left:400px;
+
+
+}
+#box-1, #box-2, #box-3{ 
+    width:300px;
+    height: 750px;
+    border: 0.5px floralwhite solid;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: azure;
+    vertical-align: top;
+    margin-left: 70px;
+    
+    
+
+}
+h2{
+    background-color: darkgray;
+    padding: 10px;
+    margin: auto;
+    font-family: sans-serif;
+    color: azure;
+
+}
+#laMonde{
+    width: 280px;
+    height: 200px;
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 8px;
+    margin-top: 5px;
+    
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding: 1px
+
+}
+p{
+    text-align: left;
+    margin-left: 10px;
+}
+button{
+    background-color: green;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-left: 110px;
+    margin-top: 10px;
+
+}
+#footer{
+    background-color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    text-align: center;
+    padding: 10px;
+    margin-top:20px;
+
+
+}
+#newpics{
+    padding: 1px;
+    display: inline-block;
+   align-items:center;
+
+    
+}
+.img1{
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    margin-left:50px;
+    p
+   
+    
+
+}
+
+

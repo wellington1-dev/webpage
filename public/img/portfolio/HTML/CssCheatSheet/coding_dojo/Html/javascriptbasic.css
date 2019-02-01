@@ -1,0 +1,121 @@
+*{
+    /* outline: 1px red dotted;
+    margin:none; */
+
+}
+.container{
+    width: 78%;
+    height: 100%;
+    background-color: rgb(13, 13, 71);
+    margin:auto;
+    padding-top:1px;
+   
+
+
+}
+.header{
+    margin-left: 35px;
+    height: 55px;
+    margin-right: 37px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: silver;
+    font-size: 30;
+    padding-top:  25px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: rgb(163, 34, 34);
+    
+
+    /* margin-top: 10px;
+    width: 98%;
+    height: 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: rgb(163, 34, 34);
+    text-align:left; 
+       
+    /* margin-bottom: 10px; */
+    /* margin-left: 10px; */
+    /* color: grey;
+    font-size: 36;
+    display: inline-block;
+    vertical-align: top;
+    float: left; */
+    
+
+}
+a {
+    
+    color:aquamarine;
+
+
+}
+.list{
+    color: rgb(103, 103, 190);
+}
+#nav{
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 990px;
+    padding-right: 60px;
+    padding-left: 20px;
+   
+   
+
+}
+.menu{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(33, 83, 66);
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aquamarine;
+
+}
+.content{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 560px;
+    height: 500px;
+    background-color:black;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-right: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+    font-size: 13;
+    text-align: left;
+    padding-right:20px;
+    
+    
+
+}
+
+#footer{
+    width: 960px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    color:lightgray;
+    padding-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10;
+    text-align: left;
+    padding-left: 10px;
+
+}

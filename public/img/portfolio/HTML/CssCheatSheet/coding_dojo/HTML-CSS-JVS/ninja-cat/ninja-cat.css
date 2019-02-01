@@ -1,0 +1,12 @@
+.container{
+    width: 990px;
+    min-height: 800px;
+    margin: 0px auto;
+    background-color: rgb(26, 26, 41);
+}
+#division{
+    width: 300px;
+    height: 500px;
+    border: 10px orange solid;
+    background-color: black;
+}

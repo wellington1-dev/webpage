@@ -1,0 +1,29 @@
+{
+  "name": "webpage",
+  "version": "1.0.0",
+  "description": "personal webpage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "webPageResponsive"
+  },
+  "author": "wellington",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "http-server": "^0.11.1",
+    "node": "^11.7.0",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.9",
+    "php": "0.0.1"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}

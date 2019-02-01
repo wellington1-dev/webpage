@@ -1,0 +1,85 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jquery Assigments</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="new_index.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('document').ready(function () {
+            $('.block1').on("click", function () {
+                $(this).css("background", 'silver');
+            })
+
+            $('#bye').click(function () {
+                $('#paragraph1').hide();
+            })
+
+            $('#hello').click(function () {
+                $('#paragraph1').show();
+            })
+            $('#btn').click(function () {
+                $('h1').slideToggle();
+
+            })
+
+        })
+        $('document').ready(function () {
+            $('.one').click(function () {
+                $('#paragraph2').append(" <b>Bread</b>");
+            })
+            $('.two').click(function () {
+                $('#paragraph2').append(" <b>Wine</b>");
+            })
+            $('.nothing').click(function () {
+                $('#paragraph2').append(" <b>Whatever</b>");
+            })
+            $("#flip").click(function () {
+                $("#panel").slideDown("slow");
+            });
+        })
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="block1">
+            <h1>Add A class</h1>
+            <button id="color">Add a class</button>
+            <p id="paragraph"> Lorem ipsum dolor sit amet consectetur</p>
+
+
+
+        </div>
+        <div class="block2">
+            <h1>Slidetoggle</h1>
+            <button id="btn">Slidetoggle</button>
+            <p id="paragraph1"> Lorem ipsum dolor sit amet consectetur</p>
+            <button id="hello">Hello</button>
+            <button id="bye">Bye</button>
+
+
+        </div>
+        <div class="block3">
+            <h1>Append</h1>
+            <button class="nothing">Append</button>
+            <p id="paragraph2">Go to the grocery and buy some: </p>
+            <button class="one">Choice 1</button>
+            <button class="two">Choice 2</button>
+        </div>
+        <div class="block4">
+            <h1>What is the animal?</h1>
+            <!-- <p class="see">It's a Tiger!</p> -->
+            <div id="flip"><button id="see">Click to see the animal</button></div>
+            <div id="panel"><img class="animal" src="moire-1.jpg" alt="plantation"></div>
+            
+
+        </div>
+    </div>
+</body>
+
+</html>

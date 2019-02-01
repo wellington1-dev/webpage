@@ -1,0 +1,650 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 AppleColorEmoji;
+}
+{\colortbl;\red255\green255\blue255;\red34\green79\blue188;\red0\green0\blue152;\red88\green229\blue64;
+\red97\green0\blue1;\red204\green203\blue60;}
+{\*\expandedcolortbl;;\csgenericrgb\c13206\c30848\c73913;\cssrgb\c0\c0\c66131;\cssrgb\c39485\c89860\c31569;
+\cssrgb\c46057\c0\c0;\cssrgb\c83611\c82454\c29969;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf1 \cb2 \CocoaLigature0 Last login: Fri Sep 28 18:00:22 on ttys000\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ python\
+Python 2.7.10 (default, Oct  6 2017, 22:29:07) \
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.31)] on darwin\
+Type "help", "copyright", "credits" or "license" for more information.\
+>>> python get-pip.py\
+  File "<stdin>", line 1\
+    python get-pip.py\
+             ^\
+SyntaxError: invalid syntax\
+>>> python\
+Traceback (most recent call last):\
+  File "<stdin>", line 1, in <module>\
+NameError: name 'python' is not defined\
+>>> exit\
+Use exit() or Ctrl-D (i.e. EOF) to exit\
+>>> ^D\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ python get-pip.py\
+python: can't open file 'get-pip.py': [Errno 2] No such file or directory\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ pip install pip\
+-bash: pip: command not found\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ gcc -v\
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1\
+Apple LLVM version 10.0.0 (clang-1000.10.44.2)\
+Target: x86_64-apple-darwin17.7.0\
+Thread model: posix\
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\
+
+\f1\b \cf3 ==>\cf1  This script will install:
+\f0\b0 \
+/usr/local/bin/brew\
+/usr/local/share/doc/homebrew\
+/usr/local/share/man/man1/brew.1\
+/usr/local/share/zsh/site-functions/_brew\
+/usr/local/etc/bash_completion.d/brew\
+/usr/local/Homebrew\
+\
+Press RETURN to continue or any other key to abort\
+
+\f1\b \cf3 ==>\cf1  /usr/bin/sudo /bin/mkdir -p /Library/Caches/Homebrew
+\f0\b0 \
+Password:\
+
+\f1\b \cf3 ==>\cf1  /usr/bin/sudo /bin/chmod g+rwx /Library/Caches/Homebrew
+\f0\b0 \
+
+\f1\b \cf3 ==>\cf1  /usr/bin/sudo /usr/sbin/chown wellingtonsilva /Library/Caches/Homebrew
+\f0\b0 \
+
+\f1\b \cf3 ==>\cf1  Downloading and installing Homebrew...
+\f0\b0 \
+remote: Enumerating objects: 128, done.\
+remote: Counting objects: 100% (128/128), done.\
+remote: Compressing objects: 100% (14/14), done.\
+remote: Total 149 (delta 114), reused 128 (delta 114), pack-reused 21\
+Receiving objects: 100% (149/149), 27.96 KiB | 6.99 MiB/s, done.\
+Resolving deltas: 100% (115/115), completed with 47 local objects.\
+From https://github.com/Homebrew/brew\
+   dae47914c..1f5309902  master     -> origin/master\
+HEAD is now at 1f5309902 Merge pull request #4991 from javian/moverubocopoption\
+Updated 1 tap (homebrew/core).\
+\cf3 ==>\cf1  
+\f1\b Migrating /Library/Caches/Homebrew to /Users/wellingtonsilva/Library/Caches/Homebrew...
+\f0\b0 \
+\cf3 ==>\cf1  
+\f1\b Deleting /Library/Caches/Homebrew...
+\f0\b0 \
+\cf3 ==>\cf1  
+\f1\b New Formulae
+\f0\b0 \
+bundletool          geant4              mallet              opentracing-cpp     stanford-corenlp\
+\cf3 ==>\cf1  
+\f1\b Updated Formulae
+\f0\b0 \
+ammonite-repl       evince              libssh              quicktype           swiftgen\
+ansible             faas-cli            opencv              rabbitmq            terragrunt\
+babel               glances             pandoc              rom-tools           vice\
+eslint              grv                 pulumi              swiftformat\
+
+\f1\b \cf3 ==>\cf1  Installation successful!
+\f0\b0 \
+\
+
+\f1\b \cf3 ==>\cf1  Homebrew has enabled anonymous aggregate formulae and cask analytics.
+\f0\b0 \
+
+\f1\b Read the analytics documentation (and how to opt-out) here:
+\f0\b0 \
+
+\f1\b   \ul https://docs.brew.sh/Analytics.html
+\f0\b0 \ulnone \
+\
+
+\f1\b \cf3 ==>\cf1  Homebrew is run entirely by unpaid volunteers. Please consider donating:
+\f0\b0 \
+  \ul https://github.com/Homebrew/brew#donations\ulnone \
+
+\f1\b \cf3 ==>\cf1  Next steps:
+\f0\b0 \
+- Run `brew help` to get started\
+- Further documentation: \
+    \ul https://docs.brew.sh\ulnone \
+Wellingtons-MacBook-Air:~ wellingtonsilva$ cd ~\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ nano .bash_profile\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ brew\
+Example usage:\
+  brew search [TEXT|/REGEX/]\
+  brew info [FORMULA...]\
+  brew install FORMULA...\
+  brew update\
+  brew upgrade [FORMULA...]\
+  brew uninstall FORMULA...\
+  brew list [FORMULA...]\
+\
+Troubleshooting:\
+  brew config\
+  brew doctor\
+  brew install --verbose --debug FORMULA\
+\
+Contributing:\
+  brew create [URL [--no-fetch]]\
+  brew edit [FORMULA...]\
+\
+Further help:\
+  brew commands\
+  brew help [COMMAND]\
+  man brew\
+  https://docs.brew.sh\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ brew update\
+Already up-to-date.\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ brew install python3\
+\cf4 ==>\cf1  
+\f1\b Installing dependencies for python: \cf4 gdbm\cf1 , \cf4 readline\cf1 , \cf4 sqlite\cf1 , \cf4 xz
+\f0\b0 \cf1 \
+\cf4 ==>\cf1  
+\f1\b Installing python dependency: \cf4 gdbm
+\f0\b0 \cf1 \
+\cf3 ==>\cf1  
+\f1\b Downloading https://homebrew.bintray.com/bottles/gdbm-1.18.high_sierra.bottle.tar.gz
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf1  
+\f1\b Pouring gdbm-1.18.high_sierra.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/gdbm/1.18: 20 files, 584.4KB\
+\cf4 ==>\cf1  
+\f1\b Installing python dependency: \cf4 readline
+\f0\b0 \cf1 \
+\cf3 ==>\cf1  
+\f1\b Downloading https://homebrew.bintray.com/bottles/readline-7.0.5.high_sierra.bottle.tar.gz
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf1  
+\f1\b Pouring readline-7.0.5.high_sierra.bottle.tar.gz
+\f0\b0 \
+\cf3 ==>\cf1  
+\f1\b Caveats
+\f0\b0 \
+readline is keg-only, which means it was not symlinked into /usr/local,\
+because macOS provides the BSD libedit library, which shadows libreadline.\
+In order to prevent conflicts when programs look for libreadline we are\
+defaulting this GNU Readline installation to keg-only.\
+\
+For compilers to find readline you may need to set:\
+  export LDFLAGS="-L/usr/local/opt/readline/lib"\
+  export CPPFLAGS="-I/usr/local/opt/readline/include"\
+\
+\cf3 ==>\cf1  
+\f1\b Summary
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/readline/7.0.5: 46 files, 1.5MB\
+\cf4 ==>\cf1  
+\f1\b Installing python dependency: \cf4 sqlite
+\f0\b0 \cf1 \
+\cf3 ==>\cf1  
+\f1\b Downloading https://homebrew.bintray.com/bottles/sqlite-3.25.2.high_sierra.bottle.tar.gz
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf1  
+\f1\b Pouring sqlite-3.25.2.high_sierra.bottle.tar.gz
+\f0\b0 \
+\cf3 ==>\cf1  
+\f1\b Caveats
+\f0\b0 \
+sqlite is keg-only, which means it was not symlinked into /usr/local,\
+because macOS provides an older sqlite3.\
+\
+If you need to have sqlite first in your PATH run:\
+  echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile\
+\
+For compilers to find sqlite you may need to set:\
+  export LDFLAGS="-L/usr/local/opt/sqlite/lib"\
+  export CPPFLAGS="-I/usr/local/opt/sqlite/include"\
+\
+\cf3 ==>\cf1  
+\f1\b Summary
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/sqlite/3.25.2: 11 files, 3.7MB\
+\cf4 ==>\cf1  
+\f1\b Installing python dependency: \cf4 xz
+\f0\b0 \cf1 \
+\cf3 ==>\cf1  
+\f1\b Downloading https://homebrew.bintray.com/bottles/xz-5.2.4.high_sierra.bottle.tar.gz
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf1  
+\f1\b Pouring xz-5.2.4.high_sierra.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/xz/5.2.4: 92 files, 1MB\
+\cf4 ==>\cf1  
+\f1\b Installing \cf4 python
+\f0\b0 \cf1 \
+\cf3 ==>\cf1  
+\f1\b Downloading https://homebrew.bintray.com/bottles/python-3.7.0.high_sierra.bottle.5.tar.gz
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf1  
+\f1\b Pouring python-3.7.0.high_sierra.bottle.5.tar.gz
+\f0\b0 \
+\cf5 Error:\cf1  The `brew link` step did not complete successfully\
+The formula built, but is not symlinked into /usr/local\
+Could not symlink bin/2to3\
+Target /usr/local/bin/2to3\
+already exists. You may want to remove it:\
+  rm '/usr/local/bin/2to3'\
+\
+To force the link and overwrite all conflicting files:\
+  brew link --overwrite python\
+\
+To list all files that would be deleted:\
+  brew link --overwrite --dry-run python\
+\
+Possible conflicting files are:\
+/usr/local/bin/2to3 -> /Library/Frameworks/Python.framework/Versions/3.7/bin/2to3\
+/usr/local/bin/2to3-3.7 -> /Library/Frameworks/Python.framework/Versions/3.7/bin/2to3-3.7\
+/usr/local/bin/idle3 -> /Library/Frameworks/Python.framework/Versions/3.7/bin/idle3\
+/usr/local/bin/idle3.7 -> /Library/Frameworks/Python.framework/Versions/3.7/bin/idle3.7\
+/usr/local/bin/pydoc3 -> /Library/Frameworks/Python.framework/Versions/3.7/bin/pydoc3\
+/usr/local/bin/pydoc3.7 -> /Library/Frameworks/Python.framework/Versions/3.7/bin/pydoc3.7\
+/usr/local/bin/python3 -> /Library/Frameworks/Python.framework/Versions/3.7/bin/python3\
+/usr/local/bin/python3-config -> /Library/Frameworks/Python.framework/Versions/3.7/bin/python3-config\
+/usr/local/bin/python3.7 -> /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7\
+/usr/local/bin/python3.7-config -> /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7-config\
+/usr/local/bin/python3.7m -> /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7m\
+/usr/local/bin/python3.7m-config -> /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7m-config\
+/usr/local/bin/pyvenv -> /Library/Frameworks/Python.framework/Versions/3.7/bin/pyvenv\
+/usr/local/bin/pyvenv-3.7 -> /Library/Frameworks/Python.framework/Versions/3.7/bin/pyvenv-3.7\
+\cf3 ==>\cf1  
+\f1\b /usr/local/Cellar/python/3.7.0/bin/python3 -s setup.py --no-user-cfg install --force --verbose --i
+\f0\b0 \
+\cf3 ==>\cf1  
+\f1\b /usr/local/Cellar/python/3.7.0/bin/python3 -s setup.py --no-user-cfg install --force --verbose --i
+\f0\b0 \
+\cf3 ==>\cf1  
+\f1\b /usr/local/Cellar/python/3.7.0/bin/python3 -s setup.py --no-user-cfg install --force --verbose --i
+\f0\b0 \
+\cf3 ==>\cf1  
+\f1\b Caveats
+\f0\b0 \
+Python has been installed as\
+  /usr/local/bin/python3\
+\
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to\
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into\
+  /usr/local/opt/python/libexec/bin\
+\
+If you need Homebrew's Python 2.7 run\
+  brew install python@2\
+\
+Pip, setuptools, and wheel have been installed. To update them run\
+  pip3 install --upgrade pip setuptools wheel\
+\
+You can install Python packages with\
+  pip3 install <package>\
+They will install into the site-package directory\
+  /usr/local/lib/python3.7/site-packages\
+\
+See: https://docs.brew.sh/Homebrew-and-Python\
+\cf3 ==>\cf1  
+\f1\b Summary
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/python/3.7.0: 4,790 files, 102.2MB\
+\cf4 ==>\cf1  
+\f1\b Caveats
+\f0\b0 \
+\cf3 ==>\cf1  
+\f1\b readline
+\f0\b0 \
+readline is keg-only, which means it was not symlinked into /usr/local,\
+because macOS provides the BSD libedit library, which shadows libreadline.\
+In order to prevent conflicts when programs look for libreadline we are\
+defaulting this GNU Readline installation to keg-only.\
+\
+For compilers to find readline you may need to set:\
+  export LDFLAGS="-L/usr/local/opt/readline/lib"\
+  export CPPFLAGS="-I/usr/local/opt/readline/include"\
+\
+\cf3 ==>\cf1  
+\f1\b sqlite
+\f0\b0 \
+sqlite is keg-only, which means it was not symlinked into /usr/local,\
+because macOS provides an older sqlite3.\
+\
+If you need to have sqlite first in your PATH run:\
+  echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile\
+\
+For compilers to find sqlite you may need to set:\
+  export LDFLAGS="-L/usr/local/opt/sqlite/lib"\
+  export CPPFLAGS="-I/usr/local/opt/sqlite/include"\
+\
+\cf3 ==>\cf1  
+\f1\b python
+\f0\b0 \
+Python has been installed as\
+  /usr/local/bin/python3\
+\
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to\
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into\
+  /usr/local/opt/python/libexec/bin\
+\
+If you need Homebrew's Python 2.7 run\
+  brew install python@2\
+\
+Pip, setuptools, and wheel have been installed. To update them run\
+  pip3 install --upgrade pip setuptools wheel\
+\
+You can install Python packages with\
+  pip3 install <package>\
+They will install into the site-package directory\
+  /usr/local/lib/python3.7/site-packages\
+\
+See: https://docs.brew.sh/Homebrew-and-Python\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ pip -V\
+-bash: pip: command not found\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ $ pip3 install \{\{flask\}\}\
+-bash: $: command not found\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ $ pip3 install flask\
+-bash: $: command not found\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ $ pip3 install django\
+-bash: $: command not found\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ pip3 install flask\
+Collecting flask\
+  Downloading https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl (91kB)\
+    100% |\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 92kB 1.1MB/s \
+Collecting click>=5.1 (from flask)\
+  Downloading https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81kB)\
+    100% |\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 81kB 1.8MB/s \
+Collecting itsdangerous>=0.24 (from flask)\
+  Downloading https://files.pythonhosted.org/packages/dc/b4/a60bcdba945c00f6d608d8975131ab3f25b22f2bcfe1dab221165194b2d4/itsdangerous-0.24.tar.gz (46kB)\
+    100% |\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 51kB 1.3MB/s \
+Collecting Jinja2>=2.10 (from flask)\
+  Downloading https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl (126kB)\
+    100% |\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 133kB 3.1MB/s \
+Collecting Werkzeug>=0.14 (from flask)\
+  Downloading https://files.pythonhosted.org/packages/20/c4/12e3e56473e52375aa29c4764e70d1b8f3efa6682bef8d0aae04fe335243/Werkzeug-0.14.1-py2.py3-none-any.whl (322kB)\
+    100% |\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 327kB 3.1MB/s \
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.10->flask)\
+  Downloading https://files.pythonhosted.org/packages/4d/de/32d741db316d8fdb7680822dd37001ef7a448255de9699ab4bfcbdf4172b/MarkupSafe-1.0.tar.gz\
+Installing collected packages: click, itsdangerous, MarkupSafe, Jinja2, Werkzeug, flask\
+  Running setup.py install for itsdangerous ... done\
+  Running setup.py install for MarkupSafe ... done\
+Successfully installed Jinja2-2.10 MarkupSafe-1.0 Werkzeug-0.14.1 click-7.0 flask-1.0.2 itsdangerous-0.24\
+\cf6 Cache entry deserialization failed, entry ignored\cf1 \
+\cf6 You are using pip version 10.0.1, however version 18.0 is available.\cf1 \
+\cf6 You should consider upgrading via the 'pip install --upgrade pip' command.\cf1 \
+Wellingtons-MacBook-Air:~ wellingtonsilva$ pip3 install django\
+Collecting django\
+  Downloading https://files.pythonhosted.org/packages/32/ab/22530cc1b2114e6067eece94a333d6c749fa1c56a009f0721e51c181ea53/Django-2.1.2-py3-none-any.whl (7.3MB)\
+    100% |\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 7.3MB 1.2MB/s \
+Collecting pytz (from django)\
+  Downloading https://files.pythonhosted.org/packages/30/4e/27c34b62430286c6d59177a0842ed90dc789ce5d1ed740887653b898779a/pytz-2018.5-py2.py3-none-any.whl (510kB)\
+    100% |\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 512kB 1.1MB/s \
+Installing collected packages: pytz, django\
+Successfully installed django-2.1.2 pytz-2018.5\
+\cf6 You are using pip version 10.0.1, however version 18.0 is available.\cf1 \
+\cf6 You should consider upgrading via the 'pip install --upgrade pip' command.\cf1 \
+Wellingtons-MacBook-Air:~ wellingtonsilva$ pip3 install virtualenv\
+Collecting virtualenv\
+  Downloading https://files.pythonhosted.org/packages/b6/30/96a02b2287098b23b875bc8c2f58071c35d2efe84f747b64d523721dc2b5/virtualenv-16.0.0-py2.py3-none-any.whl (1.9MB)\
+    100% |\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 1.9MB 2.7MB/s \
+Installing collected packages: virtualenv\
+Successfully installed virtualenv-16.0.0\
+\cf6 You are using pip version 10.0.1, however version 18.0 is available.\cf1 \
+\cf6 You should consider upgrading via the 'pip install --upgrade pip' command.\cf1 \
+Wellingtons-MacBook-Air:~ wellingtonsilva$ virtualenv -p python3 pyEnv\
+Running virtualenv with interpreter /Library/Frameworks/Python.framework/Versions/3.7/bin/python3\
+Using base prefix '/Library/Frameworks/Python.framework/Versions/3.7'\
+/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/virtualenv.py:1041: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses\
+  import imp\
+New python executable in /Users/wellingtonsilva/pyEnv/bin/python3\
+Also creating executable in /Users/wellingtonsilva/pyEnv/bin/python\
+Installing setuptools, pip, wheel...done.\
+Wellingtons-MacBook-Air:~ wellingtonsilva$ cd Documents\
+Wellingtons-MacBook-Air:Documents wellingtonsilva$ cd coding_dojo\
+-bash: cd: coding_dojo: No such file or directory\
+Wellingtons-MacBook-Air:Documents wellingtonsilva$ ls\
+Equation 2.py			Hello.html			firstprogram.iml\
+Equation 3.py			Java New			my_first_data.mwb\
+Equation.py			MORE CSS.webarchive		out\
+Equation.py.zip			MethodTest			src\
+HTML				MethodTest.java			venv\
+HTML Responsive.webarchive	My Blog.webarchive\
+HTML_First.html			Page Title.webarchive\
+Wellingtons-MacBook-Air:Documents wellingtonsilva$ cd html\
+Wellingtons-MacBook-Air:html wellingtonsilva$ ls\
+CssCheatSheet	blog.html	images		index.html\
+Wellingtons-MacBook-Air:html wellingtonsilva$ cd cssCheatSheet\
+Wellingtons-MacBook-Air:cssCheatSheet wellingtonsilva$ ls\
+Images		coding_dojo	my_website	responsive.css\
+Mywebsite	index.html	my_website.css	responsive.html\
+Wellingtons-MacBook-Air:cssCheatSheet wellingtonsilva$ cd coding_dojo\
+Wellingtons-MacBook-Air:coding_dojo wellingtonsilva$ virtualenv -p python3 pyEnv\
+Running virtualenv with interpreter /Library/Frameworks/Python.framework/Versions/3.7/bin/python3\
+Using base prefix '/Library/Frameworks/Python.framework/Versions/3.7'\
+/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/virtualenv.py:1041: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses\
+  import imp\
+New python executable in /Users/wellingtonsilva/Documents/HTML/CssCheatSheet/coding_dojo/pyEnv/bin/python3\
+Also creating executable in /Users/wellingtonsilva/Documents/HTML/CssCheatSheet/coding_dojo/pyEnv/bin/python\
+Installing setuptools, pip, wheel...done.\
+Wellingtons-MacBook-Air:coding_dojo wellingtonsilva$ ls\
+HTML-CSS-JVS	Second_Exam	exam.css	internet	main.png	video.png\
+Html		back.png	exam.html	internet.css	pyEnv\
+PYTHON_STACK	exam		images		internet.html	untitled folder\
+Wellingtons-MacBook-Air:coding_dojo wellingtonsilva$ ls\
+HTML-CSS-JVS	Second_Exam	exam.css	internet	main.png	video.png\
+Html		back.png	exam.html	internet.css	pyEnv\
+PYTHON_STACK	exam		images		internet.html	untitled folder\
+Wellingtons-MacBook-Air:coding_dojo wellingtonsilva$ cd python_stack\
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ virtualenv -p python3 pyEnv\
+Running virtualenv with interpreter /Library/Frameworks/Python.framework/Versions/3.7/bin/python3\
+Using base prefix '/Library/Frameworks/Python.framework/Versions/3.7'\
+/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/virtualenv.py:1041: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses\
+  import imp\
+New python executable in /Users/wellingtonsilva/Documents/HTML/CssCheatSheet/coding_dojo/PYTHON_STACK/pyEnv/bin/python3\
+Also creating executable in /Users/wellingtonsilva/Documents/HTML/CssCheatSheet/coding_dojo/PYTHON_STACK/pyEnv/bin/python\
+Installing setuptools, pip, wheel...done.\
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ ls\
+myEnvironments	pyEnv\
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ (pyEnv)$\
+-bash: syntax error near unexpected token `$'\
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ (pyEnv) $\
+-bash: syntax error near unexpected token `$'\
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ (pyEnv)$\
+-bash: syntax error near unexpected token `$'\
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ clear\
+\
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ pip install django==1.11.9\
+-bash: pip: command not found\
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ pip install Django==1.11.9\
+-bash: pip: command not found\
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ clear\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ pip install flask\
+-bash: pip: command not found\
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ pip3 install flask\
+Requirement already satisfied: flask in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (1.0.2)\
+Requirement already satisfied: Jinja2>=2.10 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from flask) (2.10)\
+Requirement already satisfied: click>=5.1 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from flask) (7.0)\
+Requirement already satisfied: itsdangerous>=0.24 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from flask) (0.24)\
+Requirement already satisfied: Werkzeug>=0.14 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from flask) (0.14.1)\
+Requirement already satisfied: MarkupSafe>=0.23 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from Jinja2>=2.10->flask) (1.0)\
+\cf6 You are using pip version 10.0.1, however version 18.0 is available.\cf1 \
+\cf6 You should consider upgrading via the 'pip install --upgrade pip' command.\cf1 \
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ pip3 list\
+Package      Version\
+------------ -------\
+Click        7.0    \
+Django       2.1.2  \
+Flask        1.0.2  \
+itsdangerous 0.24   \
+Jinja2       2.10   \
+MarkupSafe   1.0    \
+pip          10.0.1 \
+pytz         2018.5 \
+setuptools   39.0.1 \
+virtualenv   16.0.0 \
+Werkzeug     0.14.1 \
+\cf6 You are using pip version 10.0.1, however version 18.0 is available.\cf1 \
+\cf6 You should consider upgrading via the 'pip install --upgrade pip' command.\cf1 \
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ pip show django\
+-bash: pip: command not found\
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ pip3 show django\
+Name: Django\
+Version: 2.1.2\
+Summary: A high-level Python Web framework that encourages rapid development and clean, pragmatic design.\
+Home-page: https://www.djangoproject.com/\
+Author: Django Software Foundation\
+Author-email: foundation@djangoproject.com\
+License: BSD\
+Location: /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages\
+Requires: pytz\
+Required-by: \
+\cf6 You are using pip version 10.0.1, however version 18.0 is available.\cf1 \
+\cf6 You should consider upgrading via the 'pip install --upgrade pip' command.\cf1 \
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ pip3 search flask\
+Flask-OrientDB (0.1)        - A Flask extension for using OrientDB with Flask\
+Flask-Pure (0.5)            - Flask-Pure - a Flask extension for Pure.css\
+Flask-SimpleMDE (0.3.0)     - Flask-SimpleMDE - a Flask extension for SimpleMDE\
+sockjs-flask (0.3)          - SockJs for Flask\
+Fifty-Flask (1.4.0)         - Flask enhancements.\
+Flask-AutoIndex (0.6.2)     - The mod_autoindex for Flask\
+Flask-BDEA (0.1.0)          - Flask-BDEA\
+Flask-Chargebee (0.0.1)     - Flask-Chargebee\
+Flask-Clearbit (0.1.0)      - Flask-Clearbit\
+Flask-ElasticUtils (0.1.7)  - ElasticUtils for Flask\
+Flask-FileRev (0.1.0)       - Flask-FileRev\
+Flask-FontAwesome (0.1.2)   - FontAwesome for Flask\
+Flask-Gears (0.2)           - Gears for Flask\
+Flask-GripControl (0.0.1)   - Flask GripControl\
+Flask-Helper (0.19)         - Flask Helper\
+Flask-Intercom (0.1.0)      - Flask-Intercom\
+Flask-Keen (0.1.0)          - Flask-Keen\
+Flask-Mustache (0.4.1)      - Mustache for Flask\
+Flask-NextCaller (0.1.0)    - Flask-NextCaller\
+Flask-OAuthlib (0.9.5)      - OAuthlib for Flask\
+Flask-PubSub (0.1.0)        - Flask-PubSub\
+Flask-Quik (0.1.1)          - Quik for Flask\
+Flask-Shopify (0.2)         - Shopify Flask\
+Flask-SPF (0.0.0)           - Flask-SPF\
+Flask-SRI (0.1.0)           - Flask-SRI\
+Flask-Stripe (0.1.0)        - Flask-Stripe\
+Flask-TaskTiger (0.0.1)     - Flask TaskTiger\
+flask-toolbox (0.0.2)       - A flask toolbox.\
+Flask-Turbolinks (0.2.0)    - Turbolinks for Flask.\
+Flask-Watson (0.1.0)        - Flask-Watson\
+Flask-Weixin (0.5.0)        - Weixin for Flask.\
+flask-ws (0.0.1.0)          - Websocket for flask.\
+flask-ypaginate (0.1.3)     - Pagination for Flask\
+Flask-Diced (0.3)           - Flask-Diced - CRUD views generator for Flask\
+Flask-GeoIP (0.1.3)         - Flask-GeoIP -------------  Simple Flask extension for pygeoip.\
+flask-myapi (0.1)           - Flask-MyAPI - RESTful support library for Flask\
+airbrake-flask (1.0.7)      - airbrake-flask - Airbrake client for Python Flask\
+Flask-LoginManager (1.1.6)  - Flask-Loginmanager supports multiple roles and permissions for Flask,\
+                              inspired by Flask-Login\
+Flask-RESTive (0.0.3)       - Flask RESTive is a REST API Flask extension based on Flask-RESTful &\
+                              Marshmallow.\
+Flask-FlatPagesCut (0.5.1)  - Flask-FlatPagesCut is fork Flask-FlatPages (Provides flat static pages\
+                              to a Flask application)\
+flask-coffee2js (0.1.2)     - A small Flask extension that adds CoffeScript support to Flask.\
+Flask-Collect (1.3.2)       - Flask-Collect -- Collect static files in Flask application\
+flask-filters (0.3)         - The Flask Filter to use with flask-restful and Relational DB\
+flask-lesscss (0.9.1)       - A small Flask extension that adds LessCSS support to Flask.\
+flask-shell (0.1.3)         - Flask extension to improve shell command for the Flask CLI.\
+flask-stylus2css (0.1)      - A small Flask extension that adds Stylus support to Flask.\
+thunderdome-flask (1.0.2)   - Thunderdome Flask integration\
+nailpack-flask (0.1.0)      - Flask support for nails\
+protean-flask (0.0.1)       - Protean Flask Extension\
+hyperdns-flask (0.9.4)      - HyperDNS Flask Utilities\
+lantern-flask (0.0.45)      - Lantern Flask Tools\
+Flask-Airbrake (0.0.3)      - Flask extension for Airbrake\
+Flask-Alchy (0.5.0)         - Flask extension for alchy\
+Flask-Auth (0.85)           - Auth extension for Flask.\
+Flask-Autodoc (0.1.2)       - Documentation generator for flask\
+Flask-Avatar (0.1.3)        - To generate avatar for flask\
+Flask-Bcrypt (0.7.1)        - Brcrypt hashing for Flask.\
+flask-blitzdb (0.1)         - Flask extension for blitzdb\
+flask-bluelogin (0.2.7)     - Flask BlueLogin module\
+flask-blueprint (1.2.2)     - Flask blueprint generator\
+flask-bluestatic (0.1.0)    - Flask BlueStatic module\
+Flask-Breve (0.2)           - Breve templating with Flask\
+Flask-Builder (0.9)         - Flask-application factory\
+Flask-Captain (0.1.1)       - Handle webhooks with Flask\
+Flask-CAS (1.0.1)           - Flask extension for CAS\
+Flask-CassandraDB (0.0.1)   - connect cassandra to flask\
+Flask-Celery (2.4.3)        - Celery integration for Flask\
+Flask-CKEditor (0.4.2)      - CKEditor integration for Flask.\
+Flask-Config (0.2.1)        - Flask configuration class\
+Flask-CuttlePool (0.2.0)    - A Flask extension for CuttlePool\
+Flask-DBKit (0.0.1)         - dbkit integration for Flask.\
+flask-discoverer (0.0.5)    - Flask API autodiscovery\
+flask-dynamo (0.1.2)        - DynamoDB integration for Flask.\
+Flask-Edits (0.8)           - Editable Content in Flask\
+Flask-Enterprise (1.0)      - Enterprise capabilities for Flask\
+flask-erppeek (1.0.1)       - ERPPeek Connector for Flask\
+Flask-Extension (1.0)       - Demo for flask extension.\
+Flask-Failsafe (0.2)        - A failsafe for the Flask reloader\
+Flask-Flarf (0.0.5)         - Flask request filtering\
+Flask-Fleem (0.0.5)         - Theming for Flask applications\
+Flask-FluidDB (0.1)         - Fluiddb access for flask\
+Flask-Formspree (0.3)       - formspree flask extension\
+Flask-Fulfil (0.2.1)        - Fulfil.IO for Flask Apps\
+Flask-Funnel (0.1.10)       - Asset management for Flask.\
+flask-handlers (0.0.1)      - Handlers for Flask applications\
+Flask-HttpCaching (0.01)    - flask http caching\
+flask-hype (0.1.4)          - Flask extension for hype\
+flask-iMail (0.1)           - Mailgun integration for Flask.\
+flask-journey (0.1.4)       - Flask blueprint management\
+flask-kser (0.2.1)          - Flask KSer example\
+Flask-Lastuser (0.3.12)     - Flask extension for Lastuser\
+Flask-Latch (0.1.0)         - Latch extension for Flask\
+flask-logmanager (0.2.10)   - Flask LogManager module\
+flask-logsocketio (0.1.4)   - Flask LogSocketIo module\
+flask-macros (0.1.5)        - macros for flask projects\
+flask-manager (0.0.1)       - A CRUD manager for Flask\
+Flask-mongobit (0.1.2)      - MongoBit support in Flask\
+Flask-MongoDB (0.0.1a8)     - MongoDB flask extension\
+flask-monitor (0.2.6)       - Flask Monitor module\
+Flask-MySQLdb (0.2.0)       - MySQLdb extension for Flask\
+\cf6 You are using pip version 10.0.1, however version 18.0 is available.\cf1 \
+\cf6 You should consider upgrading via the 'pip install --upgrade pip' command.\cf1 \
+Wellingtons-MacBook-Air:python_stack wellingtonsilva$ \
+}

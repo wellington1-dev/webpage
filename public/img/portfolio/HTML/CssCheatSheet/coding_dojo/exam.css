@@ -1,0 +1,248 @@
+*{
+    outline: 1px red dotted;
+}
+.container{
+    width: 990px;
+    min-height: 1800px;
+    margin: 0px auto;
+}
+/* main menu */
+
+.menu{
+    display: inline-block;
+    width: 900px;
+    background-color: darkgrey
+
+ 
+}
+
+
+#features{
+    display: inline;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+#a{
+    text-decoration: none;
+    text-align: right;
+    color: black;
+
+}
+    
+#main1{
+    vertical-align: top;
+    margin-right: 80px;
+    display:inline-block;
+    margin-left: 100px;
+
+    
+}
+#menu_icon{
+    width:40px;
+   vertical-align: top;
+   display: inline-block;
+}
+#menu_icon1{
+    /*  */
+    
+   
+}
+input{
+    vertical-align: top;
+}
+
+
+
+
+/* buttons */
+#img{
+    width: 100%;
+    height: 298px;
+}
+
+/* menu 2 */
+.second_menu{
+
+    width:990px;
+    height: 0px;
+    display: table;
+    margin: 0px;
+    background-color: black;
+    
+}
+#horizontal_2{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+#horizontal_2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#horizontal_2 li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 2px white solid;
+
+}
+#horizontal_2 li{
+    display: inline-block;
+}
+#horizontal_2 #a{
+    color: blue;
+
+}
+
+/* Discover Link */
+.discovery link{
+    width:100px;
+    height: 84px;
+    display: inline-block;
+
+
+}
+#second{
+    display:inline-block;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18;
+    color:grey;
+}
+#browse{
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: 400px;
+}
+/* The Four Blocks */
+.previews{
+    width: 990px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    background-color:greenyellow;
+}
+#block1{
+    width: 245px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center ;
+}
+#block2{
+    width: 245px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 10px;
+}
+#block3{
+    width: 245px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 10px;
+}
+#block4{
+    width: 240px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 10px;
+}
+.nav6{
+    width: 990px;
+    height: 700px;
+    display: inline-block;
+    vertical-align: top;
+    
+
+}
+#men1{
+    width: 160px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+#men2{
+    width: 160px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+#men3{
+    width: 160px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+#men4{
+    width: 160px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+#men5{
+    width: 160px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+#men6{
+    width: 160px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+#footer{
+    text-align: center;
+    width: 990px;
+    height: 100px;
+}
+#video{
+    margin-top: 10px;
+    margin-left: 30px
+}
+#block1 #video img{
+    height: 50px;
+    vertical-align: center;
+
+    
+
+}
+#block1 #one {
+    vertical-align: middle;
+    width: 170px;
+    margin-left: 20px;
+}
+#block2 #one {
+    vertical-align: middle;
+    width: 170px;
+    margin-left: 20px;
+}
+#block3 #one {
+    vertical-align: middle;
+    width: 170px;
+    margin-left: 20px;
+}
+#block4 #one {
+    vertical-align: middle;
+    width: 170px;
+    margin-left: 20px;
+}
+#one{
+    margin-bottom: 50px;
+}
+#bnt{
+    margin-top: 80px;
+}

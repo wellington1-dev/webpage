@@ -1,0 +1,40 @@
+*{ 
+
+}
+.main{
+    width: 90%;
+    height: 100%;
+    background-color:black;
+    margin:auto;
+
+}
+.banner{
+    width: 100%;
+    height: 10%;
+    background-color: beige;
+
+} 
+ul , a{
+    text-decoration-line: none;
+    padding: 0%;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    
+    
+}
+a{
+    text-decoration: 
+}
+li{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration-line: none;
+    display:inline-block;
+    margin: 20px;
+    
+    
+
+    
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="ninja.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('#numberone').click(function(){
+            $('#one').slideToggle();
+        })
+        $('#numbertwo').click(function(){
+            $('#two').slideToggle();
+        })
+        $('#numberthree').click(function(){
+            $('#three').slideToggle();
+        })
+        $('#numberfour').click(function(){
+            $('#four').slideToggle();
+        })
+        $('#numberfive').click(function(){
+            $('#five').slideToggle();
+        })
+        $('#numbersix').click(function(){
+            $('#six').slideToggle();
+        })
+        $('#numberseven').click(function(){
+            $('#seven').slideToggle();
+        })
+        $('#numbereight').click(function(){
+            $('#eight').slideToggle();
+        })
+        // show
+        $('.btn').click(function(){
+            $('#one').show();
+        })
+        $('.btn').click(function(){
+            $('#two').show();
+        })
+        $('.btn').click(function(){
+            $('#three').show();
+        })
+        $('.btn').click(function(){
+            $('#four').show();
+        })
+        $('.btn').click(function(){
+            $('#five').show();
+        })
+        $('.btn').click(function(){
+            $('#six').show();
+        })
+        $('.btn').click(function(){
+            $('#seven').show();
+        })
+        $('.btn').click(function(){
+            $('#eight').show();
+        })
+    })
+    </script>
+</head>
+<body>
+    <section class="numbers">
+    <div id="numberone"><img id="one" src="ninja.png" alt="nin"></div>
+    <div id="numbertwo"><img id="two"src="ninja.png" alt="nin"></div>
+    <div id="numberthree"><img id="three"src="ninja.png" alt="nin"></div>
+    <div id="numberfour"><img id="four" src="ninja.png" alt="nin"></div>
+    <div id="numberfive"><img id="five" src="ninja.png" alt="nin"></div>
+    <div id="numbersix"><img id="six" src="ninja.png" alt="nin"></div>
+    <div id="numberseven"><img id="seven" src="ninja.png" alt="nin"></div>
+    <div id="numbereight"><img id="eight" src="ninja.png" alt="nin"></div>
+</section>
+<button class="btn">Restore</button>
+    
+</body>
+</html>

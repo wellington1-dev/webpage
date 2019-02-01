@@ -1,0 +1,58 @@
+body{
+    background: silver;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: blue;
+    line-height: 1.6em;
+    margin: 0px;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+#main-header{
+    background-color: aquamarine;
+    color: black;
+
+}
+#navbar{
+    background-color: black;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#navbar ul{
+    padding:0;
+    list-style:none;
+
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+}
+
+#showcase{
+    background-image: url('Images/lighter.jpg');
+    background-position: center right;
+    height: 300px;
+    margin-bottom: 30;
+    text-align: center;
+    background-position: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
+
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6mm;
+    
+
+}
